@@ -75,77 +75,7 @@ public class ParteII {
         }
     }
     
-    // Ejercicio 4
-    // Definición de la interfaz Estadisticas
-    interface Estadisticas {
-        double getArea();
-        double getPerimetro();
-    }
-
-    // Clase abstracta FiguraGeometrica que implementa la interfaz Estadisticas
-    abstract class FiguraGeometrica implements Estadisticas {
-        public abstract String getName();
-
-        @Override
-        public double getArea() {
-            // Implementación genérica para el cálculo del área
-            return 0.0;
-        }
-
-        @Override
-        public double getPerimetro() {
-            // Implementación genérica para el cálculo del perímetro
-            return 0.0;
-        }
-    }
-
-    // Clase Circulo que hereda de FiguraGeometrica
-    class Circulo extends FiguraGeometrica {
-        private double radio;
-
-        public Circulo(double radio) {
-            this.radio = radio;
-        }
-
-        @Override
-        public String getName() {
-            return "Círculo";
-        }
-
-        @Override
-        public double getArea() {
-            return Math.PI * radio * radio;
-        }
-
-        @Override
-        public double getPerimetro() {
-            return 2 * Math.PI * radio;
-        }
-    }
-
-    // Clase Cuadrado que hereda de FiguraGeometrica
-    class Cuadrado extends FiguraGeometrica {
-        private double lado;
-
-        public Cuadrado(double lado) {
-            this.lado = lado;
-        }
-
-        @Override
-        public String getName() {
-            return "Cuadrado";
-        }
-
-        @Override
-        public double getArea() {
-            return lado * lado;
-        }
-
-        @Override
-        public double getPerimetro() {
-            return 4 * lado;
-        }
-    }
+    // Ejercicio 4 --> en el resto de clases del package
 
 }
         
