@@ -7,7 +7,7 @@ public class Examen {
 	 
 	 Examen 3ª Evaluación POO DAM
 
-Instrucciones:
+Instrucciones
 
 - Clonar el repositorio del examen
 - Crear una rama con nombre: Nombre_apellidos_terceraEvaluacionDAM
