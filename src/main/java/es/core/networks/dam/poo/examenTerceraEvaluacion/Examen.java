@@ -1,4 +1,6 @@
 package es.core.networks.dam.poo.examenTerceraEvaluacion;
+import es.core.networks.dam.poo.examenTerceraEvaluacion.parte.ParteI;
+import es.core.networks.dam.poo.examenTerceraEvaluacion.parteII.ParteII;
 
 public class Examen {
 
@@ -20,4 +22,24 @@ Realizar los ejercicios de las dos partes, creando las clases y carpetas necesar
 
 	
 	 */
+	public static void main(String[] args) {
+        // Parte I
+        System.out.println("Parte I:");
+        ParteI.cadenas();
+        ParteI.dam();
+        ParteI.literal();
+        ParteI.arrayString();
+        String frase = "Esta es una frase de prueba";
+        System.out.println(ParteI.buscaEspacios(frase));
+        ParteI.usoStringBuffer();
+        System.out.println();
+        
+        // Parte II
+        System.out.println("Parte II:");
+        ParteII.pintarMatriz();
+        System.out.println();
+        ParteII.sumarMatrices();
+        System.out.println();
+        ParteII.getNumeroExtensiones();    
+	}
 }
