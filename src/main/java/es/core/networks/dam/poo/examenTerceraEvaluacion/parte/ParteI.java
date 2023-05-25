@@ -5,9 +5,9 @@ public class ParteI {
 	
 	// Método 1
     public static void cadenas() {
-        char[] nombre = {'T', 'u', ' ', 'N', 'o', 'm', 'b', 'r', 'e'};
-        char[] apellido1 = {'P', 'r', 'i', 'm', 'e', 'r', ' ', 'A', 'p', 'e', 'l', 'l', 'i', 'd', 'o'};
-        char[] apellido2 = {'S', 'e', 'g', 'u', 'n', 'd', 'o', ' ', 'A', 'p', 'e', 'l', 'l', 'i', 'd', 'o'};
+        char[] nombre = {'J', 'a', 'v', 'i', 'e', 'r'};
+        char[] apellido1 = {'P', 'u', 'e', 'n', 't', 'e', 's'};
+        char[] apellido2 = {'C', 'a', 'b', 'r', 'e', 'r', 'i', 'z', 'o'};
 
         // Longitud del primer apellido
         System.out.println("Longitud del primer apellido: " + apellido1.length);
