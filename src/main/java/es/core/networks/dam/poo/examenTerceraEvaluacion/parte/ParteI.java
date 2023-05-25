@@ -35,12 +35,14 @@ public class ParteI {
         String texto = "Esta es la clase de POO";
         String[] palabras = texto.split(" ");
         
+        // Concateno el primer y tercer elemento del array
         String concatenacion = palabras[0] + palabras[2];
         System.out.println("Concatenación del primer y tercer elemento: " + concatenacion);
         
         String palabraMenor = palabras[0];
         String palabraMayor = palabras[0];
         
+        // Itero para encontrar la palabra menor y mayor dentro del array
         for (String palabra : palabras) {
             if (palabra.compareTo(palabraMenor) < 0) {
                 palabraMenor = palabra;
@@ -67,8 +69,13 @@ public class ParteI {
         
         String mensajeSinEspacios = frase.replace(" ", "");
         
-        System.out.println("Mensaje sin espacios: " + mensajeSinEspacios);
-        System.out.println("Cantidad de espacios en la frase: " + cantidadEspacios);
+        if (cantidadEspacios == 0) {
+        	System.out.println("No existen espacios en el string");
+        }
+        else {
+        	System.out.println("Mensaje sin espacios: " + mensajeSinEspacios);
+            System.out.println("Cantidad de espacios en la frase: " + cantidadEspacios);
+        }
     }
     
     // Método 6
@@ -87,11 +94,11 @@ public class ParteI {
         StringBuffer stringBuffer = new StringBuffer();
         stringBuffer.append(nombre).append(" ").append(apellido1).append(" ").append(apellido2);
         
-        System.out.println("StringBuffer antes de eliminar el nombre: " + stringBuffer.toString());
+        System.out.println("Antes de eliminar el nombre: " + stringBuffer.toString());
         
         stringBuffer.delete(0, nombre.length() + 1);
         
-        System.out.println("StringBuffer después de eliminar el nombre: " + stringBuffer.toString());
+        System.out.println("Despues de eliminar el nombre: " + stringBuffer.toString());
         
         scanner.close();
     }
