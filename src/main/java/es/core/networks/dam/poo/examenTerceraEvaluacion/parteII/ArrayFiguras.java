@@ -6,13 +6,13 @@ public class ArrayFiguras {
 	//NOTA. He ido haciendo los métodos según leía en el enunciado, por lo que he creado clases distintas para círculo y cuadrado. Cuadno llegué al de meter las figuras de uno y de otro no sabía muy bien donde ponerlo así que lo he metido en una clase nueva (esta) donde he pegado el código de ambas clases anteriores además de crear el array para ambas. Clean Code mal.
 	
 	public static void main(String[] args) {
-        Circulo cir1 = new Circulo(5.0);
-        Circulo cir2 = new Circulo(3.0);
-        Circulo cir3 = new Circulo(7.5);
+        Circulo cir1 = new Circulo(13.2);
+        Circulo cir2 = new Circulo(7.6);
+        Circulo cir3 = new Circulo(10.2);
 
-        Cuadrado cua1 = new Cuadrado(4.0);
-        Cuadrado cua2 = new Cuadrado(6.0);
-        Cuadrado cua3 = new Cuadrado(2.5);
+        Cuadrado cua1 = new Cuadrado(4.18);
+        Cuadrado cua2 = new Cuadrado(6.7);
+        Cuadrado cua3 = new Cuadrado(20.6);
 
         Circulo[] circulos = {cir1, cir2, cir3};
         Cuadrado[] cuadrados = {cua1, cua2, cua3};
