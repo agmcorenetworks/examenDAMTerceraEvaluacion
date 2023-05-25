@@ -105,23 +105,23 @@ public class ParteI {
     
     
     public static void main(String[] args) {
-        // Prueba del método cadenas()
+        // Prueba del método 1
         cadenas();
         
-        // Prueba del método dam()
+        // Prueba del método 2
         dam();
         
-        // Prueba del método literal()
+        // Prueba del método 3
         literal();
         
-        // Prueba del método arrayString()
+        // Prueba del método 4
         arrayString();
         
-        // Prueba del método buscaEspacios()
+        // Prueba del método 5
         String frase = "Esta es una frase de prueba";
         buscaEspacios(frase);
         
-        // Prueba del método usoStringBuffer()
+        // Prueba del método 6
         usoStringBuffer();
     }
 
